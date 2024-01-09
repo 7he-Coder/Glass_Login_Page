@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlassPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero-wrapper">
+        <form action="backend.php">
+            <div class="input-field">
+                <h2>Register Or Login In Your Account</h2>
+            </div>
+            <div class="input-field">
+                <label for="username">Username</label>
+                <input type="text" name="myUsername" id="username" placeholder="username">
+            </div>
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" placeholder="email">
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="text" name="myPassword" id="password" placeholder="password" required>
+            </div>
+            <div class="option-text">
+                <span>
+                    <em>Are you fill up the form..?</em>
+                    <input type="checkbox" name="myCheck" id="checked"  class="check" checked>
+                </span> <br>
+                <span>
+                    <strong>Don't have any account..?</strong>
+                    <a href="#">Register here..</a>
+                </span>
+            </div>
+            <div class="input-field">
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
